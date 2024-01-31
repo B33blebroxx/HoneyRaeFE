@@ -9,7 +9,6 @@ export default function CustomerDetails() {
 
   const [customer, setCustomer] = useState(null);
 
-  //add useEffect here to get the ticket details from the API
   const getCustomerDetails = () => {
    getCustomerById(id).then(setCustomer);
   }
